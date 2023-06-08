@@ -19,9 +19,9 @@ int main(){
 	house obj1,obj2;
 	
 	obj1.house_number = 79;
-	strcpy(obj1.house_name,"My Sweet Home");
-	strcpy(obj1.society,"Ganesh");
-	strcpy(obj1.area,"Kamrej");
+	strcpy(obj1.house_name,"Home");
+	strcpy(obj1.society,"Rajesh");
+	strcpy(obj1.area,"Varachha");
 	strcpy(obj1.city,"Surat");
 	cout<<"house number : ";
 	cout<<obj1.house_number<<endl;
@@ -35,8 +35,8 @@ int main(){
 	cout<<obj1.city<<endl<<endl;
 	
 	obj1.house_number = 101;
-	strcpy(obj1.house_name,"My House");
-	strcpy(obj1.society,"Swastik");
+	strcpy(obj1.house_name,"Heaven");
+	strcpy(obj1.society,"Shiv Rudra");
 	strcpy(obj1.area,"Varachha");
 	strcpy(obj1.city,"Surat");
 	cout<<"house number : ";
